@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    /* padding: 35px 0; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:rgb(58, 55, 41);
+}
+nav ul li{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+    /* justify-content:space-around; */
+    font-weight: 400;
+    color:rgb(45, 142, 78);
+
+}
+nav ul li a{
+    color: white;
+    margin: 10px 50px;
+    /* margin-bottom: 10px; */
+}
+nav ul li a:hover{
+ color: tomato;
+ font-style: italic;
+ font-size: x-large;
+}
+.leftbutton button{
+    margin-right: 100px;
+    background-color:rgb(192, 203, 130) ;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(20, 18, 18);
+    padding: 13px 20px;
+    border-radius: 6px;
+}
+.leftbutton button:hover{
+ color: tomato;
+ background-color: white;
+ font-style: italic;
+}
+.banner{
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75) ,rgba(0,0,0,0.75)),url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg); */
+    background-color: brown;
+}
+.content h1{
+    transform: translateY(-50%);
+    font-size:50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    &:hover{
+        color: coral;
+        transition: all 4s;
+    }
+}
+.content p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-49%);
+align-items: center;
+}
+.mainbutton button{
+    align-items: center;
+    justify-content: center;
+    
+    background-color:rgb(192, 203, 130) ;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(20, 18, 18);
+    padding: 13px 20px;
+    border-radius: 6px;
+}
+.mainbutton button:hover{
+    color:tomato;
+    background-color: white; 
+    font-style: italic;
+}
